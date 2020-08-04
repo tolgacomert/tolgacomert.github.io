@@ -1772,8 +1772,10 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 25%;
 			margin: 0 0 2em 0;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.image.left {
@@ -1790,6 +1792,21 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+/* Style buttons */
+	.btn {
+	  background-color: DodgerBlue;
+	  border: none;
+	  color: white;
+	  padding: 12px 30px;
+	  cursor: pointer;
+	  font-size: 20px;
+	}
+
+	/* Darker background on mouse-over */
+	.btn:hover {
+	  background-color: RoyalBlue;
+	}
 
 /* List */
 
